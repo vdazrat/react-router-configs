@@ -1,5 +1,29 @@
 .App {
   text-align: center;
+  border: 1px solid red;
+  display: inline-block;
+  width: 500px;
+}
+
+.parent {
+  text-align: center;
+  border: 1px solid blue;
+  display: inline-block;
+  width: 300px;
+}
+
+.child {
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+  width: 200px;
+}
+
+.sibling{
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+  width: 500px;
 }
 
 .App-logo {
